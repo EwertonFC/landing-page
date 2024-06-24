@@ -32,7 +32,7 @@ body{
     display: flex;
     justify-content: end;
     list-style-type: none;
-    gap: 15px;
+    gap: 25px;
     color: #e5e7eb;
 }
 
@@ -75,14 +75,64 @@ body{
     color: white;
     background-color: #3882f6;
     font-weight: bold;
+    margin-top: 5px;
+}
+
+.botao-header a{
+    text-decoration: none;
+    color: white;
 }
 
 .header-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     background-color: grey;
+    color: white;
     height: 200px;
-    width: 400px;
+    width: 500px;
     margin: 0px 100px 100px 0px;
 }
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.titulo-conteudo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 42px;
+    color: #1f2937;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.exemplos-projetos{
+    display: flex;
+    margin: 25px 150px 25px 150px;
+}
+
+.ex1, .ex2, .ex3, .ex4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.ex1 .img-ex1, 
+.ex2 .img-ex2,
+.ex3 .img-ex3,
+.ex4 .img-ex4{
+    height: 135px;
+    width: 125px;
+    border: cornflowerblue 3px solid;
+    border-radius: 8px;
+}
+
